@@ -66,7 +66,7 @@ module.exports = (env) => {
                   // Bable and babel-loader options;
                   options: {
 
-                     plugins : [
+                     plugins: [
                         '@babel/plugin-proposal-class-properties',
                       ], // plugins;
 
@@ -80,7 +80,7 @@ module.exports = (env) => {
 
                               debug: false, // Output the targets/plugins used when compiling
 
-                              targets: ('development' === env.environment) ?
+                              targets: ('development' === env.NODE_ENV) ?
                                  [ // Development
                                     "last 1 chrome version",
                                     "last 1 firefox version",
@@ -117,7 +117,7 @@ module.exports = (env) => {
       // https://webpack.js.org/concepts#output
       // https://webpack.js.org/configuration/output#output-filename
       output: {
-        filename: '[name].[fullhash].js', // USI (also consider using [chunkhash] or [contenthash], see documentation for details)
+        filename: '[name].[fullhash].js', // (also consider using [chunkhash] or [contenthash], see documentation for details)
         path: PATH_DIST,
       }, // output
 
@@ -136,7 +136,9 @@ module.exports = (env) => {
 
       ], // plugins;
 
-      watch : false,
+      stats: 'errors-only',
+
+      watch: false,
 
    };
 
