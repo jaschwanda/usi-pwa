@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><link rel="apple-touch-icon" href="/images/icon-home-192x192.png"><link rel="icon" href="/images/icon-home-48x48.png"/><link rel="manifest" href="/manifest.json"/><meta charset="utf-8"/><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content=""><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content=""/><title></title></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>if ('serviceWorker' in navigator) {
+       window.addEventListener(
+          'load', 
+          () => {
+             navigator.serviceWorker.register('/service-worker.js')
+             .then(
+                (reg) => { console.log('Service worker registered:', reg); },
+                (err) => { console.error('Service worker not registered:', err); }
+             );
+          }
+       );
+    }</script><script src="main.05dc5fd1d10d921c3100.js"></script></body></html>
