@@ -1,14 +1,4 @@
-// pwa-server.js
-// Version 1.0.5 (2020-10-10)
-// From npm:
-// $ npm run build
-// $ npm run dev
-// $ npm run start
-// From .basch:
-// $ NODE_ENV=development REACT_APP_TITLE="PWA Template" node source/pwa-server
-// $ NODE_ENV=production REACT_APP_TITLE="PWA Template" node source/pwa-server
-
-'use strict';
+'use strict'; // pwa-server.js
 
 const express = require('express');
 const helmet  = require('helmet')
