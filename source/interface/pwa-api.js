@@ -1,7 +1,4 @@
-// source/pwa-api.js
-// Version 1.0.9 (2020-09-20)
-
-'use strict';
+'use strict'; // source/pwa-api.js
 
 import secrets from '../pwa-secrets';
 
