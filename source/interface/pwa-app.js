@@ -1,7 +1,4 @@
-// source/interface/app.js
-// Version 1.0.9 (2020-09-20)
-
-'use strict';
+'use strict'; // source/interface/app.js
 
 import React from 'react';
 
