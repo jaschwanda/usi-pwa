@@ -1,8 +1,8 @@
 # usi-pwa
-Universal Solutions PWA Template
+Universal Solutions PWA Template.
 
 ## Description ##
-A frame work starting point to build a Progressive Web Application (PWA). 
+A starting point frame work for a Progressive Web Application (PWA). 
 The frame work was built using the following steps based on the given web documents:
 
 Serve static assets, authentication and api routes.
