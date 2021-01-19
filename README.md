@@ -2,10 +2,8 @@
 Universal Solutions PWA Template
 
 ## Description ##
-An starting point to build a Progressive Web Application (PWA).
-
-## Frame Work ##
-The frame work was built in a number of steps given below with references to web documents:
+A frame work starting point to build a Progressive Web Application (PWA). 
+The frame work was built using the following steps based on the given web documents:
 
 Serve static assets, authentication and api routes.
 
