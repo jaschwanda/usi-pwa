@@ -1,7 +1,4 @@
-// source/interface/index.js
-// Version 1.0.9 (2020-09-20)
-
-'use strict';
+'use strict'; // source/interface/index.js
 
 import React from 'react';
 import ReactDOM from 'react-dom';

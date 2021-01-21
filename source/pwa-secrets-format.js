@@ -1,9 +1,6 @@
-// pwa-secrets-formats.js
-// Version 1.0.9 (2020-09-20)
-
 // Actual secret keys and values, should not be commited to repository, but this file can;
 
-'use strict';
+'use strict'; // pwa-secrets-formats.js
 
 const fs       = require('fs');
 

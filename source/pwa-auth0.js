@@ -1,7 +1,4 @@
-// source/auth0.js
-// Version 1.0.9 (2020-10-10)
-
-'use strict';
+'use strict'; // source/auth0.js
 
 const crypto     = require('crypto');
 const jwt_decode = require('jwt-decode');

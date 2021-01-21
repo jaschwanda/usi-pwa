@@ -1,10 +1,7 @@
-// pwa-log.js
-// Version 1.0.5 (2020-12-30)
-
 // This export creates the logging system that records the web server style access and error logs along
 // with the debug status log for development;
 
-'use strict';
+'use strict'; // pwa-log.js
 
 const morgan  = require('morgan');
 const winston = require('winston');

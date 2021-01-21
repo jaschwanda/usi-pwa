@@ -1,5 +1,4 @@
-// service-worker.js
-// Version 1.0.5 (2020-08-25);
+'use strict'; // service-worker.js
 
 const CACHE_NAME = 'sw-cache-example';
 const toCache = [

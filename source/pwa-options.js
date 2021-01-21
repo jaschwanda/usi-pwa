@@ -1,7 +1,4 @@
-// pwa-options.js
-// Version 1.0.9 (2020-09-20)
-
-'use strict';
+'use strict'; // pwa-options.js
 
 const config   = require('../webpack.config');
 const fs       = require('fs');

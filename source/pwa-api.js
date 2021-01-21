@@ -1,7 +1,4 @@
-// source/api.js
-// Version 1.0.9 (2020-09-20)
-
-'use strict';
+'use strict'; // source/api.js
 
 const log       = require('./pwa-log');
 

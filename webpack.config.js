@@ -1,5 +1,4 @@
-// webpack.config.js
-// Version 1.0.6 (2020-08-26)
+'use strict'; // webpack.config.js
 
 const path    = require('path');
 const webpack = require('webpack');
