@@ -47,12 +47,12 @@ Logging.
 - [https://thisdavej.com/using-winston-a-versatile-logging-library-for-node-js/](https://thisdavej.com/using-winston-a-versatile-logging-library-for-node-js/)
 
 ## Running the application ##
-
-
-// From npm:
-// $ npm run build
-// $ npm run dev
-// $ npm run start
-// From .basch:
-// $ NODE_ENV=development REACT_APP_TITLE="PWA Template" node source/pwa-server
-// $ NODE_ENV=production REACT_APP_TITLE="PWA Template" node source/pwa-server
+```
+From npm:
+$ npm run build
+$ npm run dev
+$ npm run start
+From .basch:
+$ NODE_ENV=development REACT_APP_TITLE="PWA Template" node source/pwa-server
+$ NODE_ENV=production REACT_APP_TITLE="PWA Template" node source/pwa-server
+```
