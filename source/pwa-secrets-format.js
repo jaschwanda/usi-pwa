@@ -16,8 +16,8 @@ module.exports = {
    },
 
    smtp : {
-      username : string,
-      password : string,
+      username : 'string',
+      password : 'string',
    }, // smtp;
 
    users : [ { email: 'abc', role: 'user' }, ], // Array of user's email in lower case and role objects;

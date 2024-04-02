@@ -1,0 +1,44 @@
+{
+  "author": "",
+  "description": "A frame work that servers as a starting point for a Progressive Web Application (PWA).",
+  "homepage": "https://github.com/jaschwanda/usi-pwa#readme",
+  "license": "None",
+  "main": "source/pwa-server.js",
+  "name": "usi-pwa",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaschwanda/usi-pwa.git"
+  },
+  "scripts": {
+    "build": "webpack --env NODE_ENV=production --env REACT_APP_TITLE=\"PWA Template\" --config webpack.config.js --no-stats&& cp -r distribution/index.html public&& cp -r distribution/*.js public",
+    "dev": "set NODE_ENV=development&&set REACT_APP_TITLE=PWA Template&&nodemon source/pwa-server.js",
+    "start": "set NODE_ENV=production&&set REACT_APP_TITLE=PWA Template&&node source/pwa-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-react": "^7.24.1",
+    "babel-loader": "^9.1.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "fs": "^0.0.1-security",
+    "helmet": "^7.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "jwt-decode": "^4.0.0",
+    "memorystore": "^1.6.7",
+    "morgan": "^1.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "request": "^2.88.2",
+    "webpack": "^5.91.0",
+    "webpack-dev-middleware": "^7.2.1",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
