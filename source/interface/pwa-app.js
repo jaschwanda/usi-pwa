@@ -23,7 +23,7 @@ export default class App extends React.Component {
 
          return(
            <div className="App">
-             <h2>Status: {this.state.status}</h2>
+             <h3>Status: {this.state.status}</h3>
            </div>
          );
          //  <button onClick={() => location.replace('login')}>Log In</button>
@@ -32,7 +32,7 @@ export default class App extends React.Component {
 
          return(
            <div className="App">
-             <h2>Status: {this.state.status}</h2>
+             <h3>Status: {this.state.status}</h3>
              <button onClick={() => api(this, 'time')}>TIME</button>
            </div>
          );
