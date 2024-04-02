@@ -24,19 +24,19 @@ export default class App extends React.Component {
          return(
            <div className="App">
              <p>Status: {this.state.status}</p>
-             <button onClick={() => location.replace('login')}>Log In</button>
            </div>
          );
+         //  <button onClick={() => location.replace('login')}>Log In</button>
 
       } else {
 
          return(
            <div className="App">
              <p>Status: {this.state.status}</p>
-             <button onClick={() => location.replace('logout')}>Log Out</button>
              <button onClick={() => api(this, 'time')}>TIME</button>
            </div>
          );
+         //  <button onClick={() => location.replace('logout')}>Log Out</button>
 
       }
 
